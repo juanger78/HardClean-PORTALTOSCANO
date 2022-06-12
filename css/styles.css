@@ -14,12 +14,14 @@ body{
 }
 html{
 	font-size: 62.5%;
-	
 }
 nav{
-	/* position:relative; */
-	/* float: right; */
+	position:relative;
+	float: right;
 	display: grid;
+	outline: 1px solid whitesmoke;
+	margin-bottom: 5px;
+	background: #12203E;
     /* display: inline-flex; */
 }
 .container {
@@ -38,7 +40,7 @@ nav{
 .container .contenido,
 .container .navBackground,
 .container .contacto,
-.container .contact,
+/* .container .contact, */
 .container .articulo,
 .container .sidebar,
 .container .pie {
@@ -53,7 +55,7 @@ nav{
 	grid-column-start: 1;
 	grid-column-end: -1;
 	display: grid;
-	display: inline-flex;
+/* 	display: inline-flex; */
 }
 .container .sidebar {
 	grid-column: 3/4;
@@ -63,8 +65,8 @@ nav{
 	align-items: center;
 	justify-content: center;
 	grid-row:span 2;
-    min-height: 100px;
-    flex-direction: column;
+    /* min-height: 100px;
+    flex-direction: column; */
 }
 .container .widget1,
 .container .widget2 {
@@ -80,19 +82,45 @@ nav{
 	color: #fff;
 	grid-column: span 3;
 	grid-template-columns: repeat(2, 1fr);
-	width: 90%;
+	width: 98%;
 	max-width: 1000px;
 }
 .navul li a {
  	color:aliceblue;
 	font-size: 2rem;
-	padding: 20px;
-	position: relative;
-	background:rgb(4, 75, 167)
-
+	padding: 8px;
+	/* position: sticky; */
+	/* background:rgb(4, 75, 167); */
+	/* inline; */
+	grid-column-start: 1;
+	grid-column-end: -1;
+	/* outline: 1px solid yellow; */
 }
-
-@media screen and (max-width: 300px) {
+.navul li {
+	display: inline;
+	line-height: 35px;
+	/* outline: 1px solid blue; */
+}
+.li {
+	/* outline: 1px solid red; */
+	width: 100px;
+	display:inline-block;
+	text-align: center;
+}
+a {
+	/* outline: 1px solid green; */
+	text-decoration: none;
+}
+a:hover {
+	background-color: #55a8fd;
+	transition: background-color .5s;
+	border-radius: 5px;
+	padding-bottom: 1px;
+}
+/* .widget1 {
+	background;
+} */
+@media screen and (max-width: 768px) {
     .container .navBackground {
         grid-column: 1 / -1;
     }
@@ -135,10 +163,13 @@ nav{
 }
 
 .contact {
-	color: aliceblue;
+	color:darkblue;
     display: grid;
+	background-color:beige;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 1.5rem;
 }
-
 img {
 	width: 15%;
 	align-items: baseline;
