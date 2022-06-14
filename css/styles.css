@@ -21,7 +21,9 @@ nav{
 	display: grid;
 	outline: 1px solid whitesmoke;
 	margin-bottom: 5px;
-	background: #12203E;
+	background: rgb(2,0,36);
+	/* gradiente linear */
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     /* display: inline-flex; */
 }
 .container {
@@ -78,7 +80,9 @@ nav{
 	justify-content: center;
 }
 .container .pie {
-	background: #12203E;
+	/* gradiente radial */
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgba(2,0,36,0.9976365546218487) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
 	color: #fff;
 	grid-column: span 3;
 	grid-template-columns: repeat(2, 1fr);
@@ -160,6 +164,10 @@ a:hover {
 	position:relative;
 	border-radius: 10px;
     display:grid;
+	/* box shadow */
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .contact {
@@ -182,4 +190,6 @@ img {
 	grid-column: auto;
 	object-fit: cover;
 }
-
+/* .animate__animated.animate__bounce {
+	--animate-duration: 6s;
+} */
