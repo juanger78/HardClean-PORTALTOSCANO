@@ -79,6 +79,10 @@ nav{
 	align-items: center;
 	justify-content: center;
 }
+.widget1 img, .widget2 img {
+	height: 100%;
+	width: 100%;
+}
 .container .pie {
 	/* gradiente radial */
 	background: rgb(2,0,36);
