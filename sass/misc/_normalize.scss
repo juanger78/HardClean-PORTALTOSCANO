@@ -1,0 +1,33 @@
+/* NORMALIZE */
+* {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	/* overflow-x: hidden; */
+	/* background: #e9ecf4; */
+	background-image: url("https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_960_720.jpg");
+	background-position: center;
+	background-size: auto;
+	margin-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+nav{
+	position:relative;
+	float: right;
+	display: grid;
+	outline: 1px solid whitesmoke;
+	margin-bottom: 5px;
+	background: rgb(2,0,36);
+	/* gradiente linear */
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /* display: inline-flex; */
+}
+a {
+	/* outline: 1px solid green; */
+	text-decoration: none;
+}
