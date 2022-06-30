@@ -1,0 +1,40 @@
+.container .navBackground {
+	/* background: rgb(4 75 167); */
+	color: #fff;
+	grid-column-start: 1;
+	grid-column-end: -1;
+	display: grid;
+/* 	display: inline-flex; */
+}
+.navul li a {
+    color:aliceblue;
+   font-size: 2rem;
+   padding: 8px;
+   /* position: sticky; */
+   /* background:rgb(4, 75, 167); */
+   /* inline; */
+   grid-column-start: 1;
+   grid-column-end: -1;
+   /* outline: 1px solid yellow; */
+}
+.navul li {
+   display: inline;
+   line-height: 35px;
+   /* outline: 1px solid blue; */
+}
+.li {
+   /* outline: 1px solid red; */
+   width: 100px;
+   display:inline-block;
+   text-align: center;
+}
+a {
+   /* outline: 1px solid green; */
+   text-decoration: none;
+}
+a:hover {
+   background-color: #55a8fd;
+   transition: background-color .5s;
+   border-radius: 5px;
+   padding-bottom: 1px;
+}

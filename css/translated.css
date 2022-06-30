@@ -1,4 +1,8 @@
 /* MISC */
+/* Colors */
+/* Spacings */
+/* Font-family */
+/* Font-sizes */
 /* NORMALIZE */
 * {
   list-style-type: none;
@@ -33,4 +37,89 @@ a {
   text-decoration: none; }
 
 /* PARTIALS */
+.container .navBackground {
+  /* background: rgb(4 75 167); */
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  display: grid;
+  /* 	display: inline-flex; */ }
+
+.navul li a {
+  color: aliceblue;
+  font-size: 2rem;
+  padding: 8px;
+  /* position: sticky; */
+  /* background:rgb(4, 75, 167); */
+  /* inline; */
+  grid-column-start: 1;
+  grid-column-end: -1;
+  /* outline: 1px solid yellow; */ }
+
+.navul li {
+  display: inline;
+  line-height: 35px;
+  /* outline: 1px solid blue; */ }
+
+.li {
+  /* outline: 1px solid red; */
+  width: 100px;
+  display: inline-block;
+  text-align: center; }
+
+a {
+  /* outline: 1px solid green; */
+  text-decoration: none; }
+
+a:hover {
+  background-color: #55a8fd;
+  transition: background-color .5s;
+  border-radius: 5px;
+  padding-bottom: 1px; }
+
+.container .pie {
+  /* gradiente radial */
+  background: #020024;
+  background: radial-gradient(circle, rgba(2, 0, 36, 0.997637) 0%, #090979 47%, #00d4ff 100%);
+  color: #fff;
+  grid-column: span 3;
+  grid-template-columns: repeat(2, 1fr);
+  width: 98%;
+  max-width: 1000px; }
+
 /* VIEWS */
+.contacto {
+  color: #044ba7;
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 1rem;
+  width: fit-content;
+  position: relative;
+  border-radius: 10px;
+  display: grid;
+  /* box shadow */
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.contact {
+  color: darkblue;
+  display: grid;
+  background-color: beige;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.5rem; }
+
+img {
+  width: 15%;
+  align-items: baseline;
+  float: inline-start;
+  border-radius: 10px;
+  display: grid;
+  flex-direction: row;
+  justify-items: flex-start;
+  padding: 10px;
+  grid-column: auto;
+  object-fit: cover; }
