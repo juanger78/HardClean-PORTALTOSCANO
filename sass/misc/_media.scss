@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .container .navBackground {
+        grid-column: 1 / -1;
+    }
+    .container .contenido {
+        grid-column: 1 / -1;
+    }    
+    .container .sidebar {
+        grid-column: 1 / -1;
+    }
+    .container .widget1 {
+        grid-column: 1 / -1;
+    }
+    .container .widget2 {
+        grid-column: 1 / -1;
+    }
+    .container .pie {
+        grid-column: 1 / -1;
+    }
+    .container .contact {
+        grid-column: 1 / -1;
+    }
+    .container .contacto {
+        grid-column: 1 / -1;
+    }
+    .container .articulo {
+        grid-column: 1 / -1;
+    }
+}

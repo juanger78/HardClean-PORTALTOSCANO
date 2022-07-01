@@ -1,0 +1,20 @@
+.container .contenido {
+	grid-column: span 2;
+    background:#fff;
+	padding: 5px;
+	margin: 8px;
+	border-radius: 8px;
+}
+
+.container .sidebar {
+	grid-column: 3/4;
+	background:rgb(4, 75, 167);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	grid-row:span 2;
+    /* min-height: 100px;
+    flex-direction: column; */
+}
+

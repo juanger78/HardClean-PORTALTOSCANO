@@ -1,0 +1,15 @@
+INDEX
+---------
+KEYWORDS USADOS: Hardclean, limpieza, hardware, insumos
+DESCRIPTION: Somos una empresa dedicada a la limpieza de hardware y venta de insumos
+
+<meta name="keywords" content="Hardclean, limpieza, hardware, insumos">
+<meta name= "Description" content="Somos una empresa dedicada a la limpieza de hardware y venta de insumos">
+
+CONTACTO
+---------
+KEYWORDS USADOS: Hardclean, contacto, registro, consultas
+DESCRIPTION: Contactate con nosotros y despeja tus dudas a traves del formulario
+
+<meta name="keywords" content="Hardclean, contacto, registro, consultas">
+<meta name= "Description" content="Contactate con nosotros y despeja tus dudas a traves del formulario">
