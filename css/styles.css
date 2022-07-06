@@ -194,6 +194,6 @@ img {
 	grid-column: auto;
 	object-fit: cover;
 }
-/* .animate__animated.animate__bounce {
+.animate__animated.animate__bounce {
 	--animate-duration: 6s;
-} */
+}

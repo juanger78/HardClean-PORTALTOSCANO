@@ -1,6 +1,6 @@
 .contacto {
 	color:rgb(4, 75, 167);
-	font-size: 2rem;
+	font-size: $fuente-normal;
 	font-weight: 500;
 	background-color: aliceblue;
 	padding: 10px;
@@ -21,7 +21,7 @@
 	background-color:beige;
 	border-radius: 8px;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: $fuente-pequena;
 }
 img {
 	width: 15%;
