@@ -13,3 +13,8 @@ DESCRIPTION: Contactate con nosotros y despeja tus dudas a traves del formulario
 
 <meta name="keywords" content="Hardclean, contacto, registro, consultas">
 <meta name= "Description" content="Contactate con nosotros y despeja tus dudas a traves del formulario">
+
+Metadescription y Keywords corregidos en todas las paginas
+Se optimizo codigo usando nesting en header.scss
+Se utilizó variables en las fuentes en contacto
+Se usó extend en header.scss
