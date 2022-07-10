@@ -129,9 +129,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   grid-row: span 2;
-  color: #fff;
-  /* min-height: 100px;
-    flex-direction: column; */ }
+  color: #fff; }
 
 .contacto {
   color: #044ba7;
