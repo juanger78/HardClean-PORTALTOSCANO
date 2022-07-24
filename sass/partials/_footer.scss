@@ -1,10 +1,11 @@
 .container .pie {
 	/* gradiente radial */
 	background: rgb(2,0,36);
-	background: radial-gradient(circle, rgba(2,0,36,0.9976365546218487) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(90deg, rgba(6, 2, 78, 0.998) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
 	color: #fff;
 	grid-column: span 3;
 	grid-template-columns: repeat(2, 1fr);
 	width: 100%;
 	max-width: 1000px;
+	flex-flow: column;
 }

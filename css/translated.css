@@ -26,7 +26,7 @@ nav {
   outline: 1px solid whitesmoke;
   margin-bottom: 5px;
   background: #f6f6f9;
-  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); }
+  background: linear-gradient(270deg, #020024 0%, #090979 35%, #00d4ff 100%); }
 
 a {
   text-decoration: none; }
@@ -106,12 +106,13 @@ a:hover {
 .container .pie {
   /* gradiente radial */
   background: #020024;
-  background: radial-gradient(circle, rgba(2, 0, 36, 0.997637) 0%, #090979 47%, #00d4ff 100%);
+  background: linear-gradient(90deg, rgba(6, 2, 78, 0.998) 0%, #090979 47%, #00d4ff 100%);
   color: #fff;
   grid-column: span 3;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
-  max-width: 1000px; }
+  max-width: 1000px;
+  flex-flow: column; }
 
 /* VIEWS */
 .container .contenido {
@@ -129,7 +130,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   grid-row: span 2;
-  color: #fff; }
+  color: #fff;
+  flex-direction: row; }
 
 .contacto {
   color: #044ba7;

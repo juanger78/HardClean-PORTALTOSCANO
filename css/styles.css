@@ -50,6 +50,7 @@ nav{
 	padding: 5px;
 	margin: 8px;
 	border-radius: 8px;
+	flex-direction: row;
 }
 .container .navBackground {
 	background: rgb(4 75 167);
@@ -57,6 +58,7 @@ nav{
 	grid-column-start: 1;
 	grid-column-end: -1;
 	display: grid;
+	flex-direction: column;
 /* 	display: inline-flex; */
 }
 .container .sidebar {
@@ -67,6 +69,7 @@ nav{
 	align-items: center;
 	justify-content: center;
 	grid-row:span 2;
+	flex-direction: column;
     /* min-height: 100px;
     flex-direction: column; */
 }
@@ -97,9 +100,6 @@ nav{
  	color:aliceblue;
 	font-size: 2rem;
 	padding: 8px;
-	/* position: sticky; */
-	/* background:rgb(4, 75, 167); */
-	/* inline; */
 	grid-column-start: 1;
 	grid-column-end: -1;
 	/* outline: 1px solid yellow; */
@@ -107,17 +107,16 @@ nav{
 .navul li {
 	display: inline;
 	line-height: 35px;
-	/* outline: 1px solid blue; */
 }
 .li {
-	/* outline: 1px solid red; */
 	width: 100px;
 	display:inline-block;
 	text-align: center;
+	flex-direction: column;
 }
 a {
-	/* outline: 1px solid green; */
 	text-decoration: none;
+	flex-direction: column;
 }
 a:hover {
 	background-color: #55a8fd;
