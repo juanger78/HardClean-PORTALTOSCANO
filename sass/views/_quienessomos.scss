@@ -1,0 +1,12 @@
+.contact {
+	color:darkblue;
+    display: grid;
+	background-color:beige;
+	border-radius: 10px;
+	text-align: center;
+	font-size: $fuente-pequena;
+    /* box shadow */
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

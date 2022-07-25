@@ -19,9 +19,14 @@
 	color:darkblue;
     display: grid;
 	background-color:beige;
-	border-radius: 8px;
+	border-radius: 10px;
 	text-align: center;
 	font-size: $fuente-pequena;
+	margin: 2px;
+	/* box shadow */
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 img {
 	width: 15%;

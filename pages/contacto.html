@@ -22,23 +22,35 @@
 	<!-- inicio encabezado -->
 	<div class="container">
     	<header class="navBackground">
+		<!-- logo -->
+		<div class="logohead">
 			<img src="../assets/img/logotransp.png" alt="logo sitio">
-			<nav>
+		</div>
+		<!-- fin logo -->
+		<!-- inicio nav -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" name="button">
+				<span class="navbar-togler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="opciones">
 				<ul class="navul">
 					<li><a href="../index.html">Inicio</a></li>
 					<li><a href="./quienessomos.html">Quienes somos</a></li>
 					<li><a href="./nuestrosservicios.html">Nuestros Servicios</a></li>
 					<li><a href="./ventas.html">Ventas</a></li>
-                	<li><a href="./contacto.html">Contacto</a></li>
+					<li><a href="./contacto.html">Contacto</a></li>
 				</ul>
-			</nav>
+			</div>
+		</nav>
+		<!-- fin nav -->
     	</header>
-		<section class="contact">
+		<section class="contact" style="grid-column: span 1;">
 			<h2 class="animate__animated animate__bounce">CONTACTO</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit natus, sapiente adipisci modi quos earum sit impedit iste id ut eos omnis ea doloribus in nobis nemo porro velit doloremque.</p>
+			<p>Personal capacitado responde todas las consultas referidas a nuestros productos y servicios; además de facilitar nuestro newsletter con todas las novedades.</p>
 		</section>
 		<!-- formulario de contacto -->
-		<section class="contacto">
+		<section class="contacto" style="grid-column: span 2;">
 			<article class="articulo">
 				<form action="#">
 					<div class="form-group">

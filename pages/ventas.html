@@ -21,45 +21,57 @@
 </head>
 <body>
     <div class="container">
-	<header class="navBackground">
-		<!-- logo -->
-		<img src="../assets/img/logotransp.png" alt="logo sitio">
-		<!-- fin logo -->
-		<!-- inicio nav -->
-		<nav>
-			<ul class="navul">
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="./quienessomos.html">Quienes somos</a></li>
-				<li><a href="./nuestrosservicios.html">Nuestros Servicios</a></li>
-				<li><a href="./ventas.html">Ventas</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
-		<!-- fin nav -->
-    </header>
-	<!-- fin encabezado -->
-	<div class="card mb-3" style="max-width: 540px;">
-		<div class="row g-0">
-		  <div class="col-md-4">
-			<img src="../assets/img/insumos.jpg" class="img-fluid rounded-start" alt="combolimpieza">
-		  </div>
-		  <div class="col-md-8">
-			<div class="card-body">
-			  <h5 class="card-title">Lo mejor en insumos</h5>
-			  <p class="card-text">Consulte por nuestros insumos de limpieza de primera calidad.</p>
-			  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		<header class="navBackground">
+			<!-- logo -->
+			<div class="logohead">
+				<img src="../assets/img/logotransp.png" alt="logo sitio">
 			</div>
-		  </div>
-		</div>
-	  </div>
-    <!-- inicio footer -->
-    <footer class="pie">
-		<div class="align-items">
-			<img class="col" src="../assets/img/logotransp.png" alt="otro logo sitio">
-			<div class="col"<h3>San Martin Nº 450 - San Salvador de Jujuy</h3></div>
-		</div>
-	</footer>
-	<!-- fin footer -->
+			<!-- fin logo -->
+			<!-- inicio nav -->
+			<nav class="navbar navbar-expand-sm navbar-light bg-light">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" name="button">
+					<span class="navbar-togler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="opciones">
+					<ul class="navul">
+						<li><a href="../index.html">Inicio</a></li>
+						<li><a href="./quienessomos.html">Quienes somos</a></li>
+						<li><a href="./nuestrosservicios.html">Nuestros Servicios</a></li>
+						<li><a href="./ventas.html">Ventas</a></li>
+						<li><a href="./contacto.html">Contacto</a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- fin nav -->
+		</header>
+		<!-- fin encabezado -->
+			<section class="contact" style="grid-column: span 2;">
+				<h2 class="animate__animated animate__bounce">NUESTROS PRODUCTOS</h2>
+				<p>Ponemos a disposición insumos de primera calidad. Ventas por mayor y menor. Consulte por nuestros exclusivos kits de limpieza</p>
+				<p>Personal especializado lo asesorará, brindandole la mejor opción. No olvide aprovechar las promociones con envío gratis</p>
+			</section>
+			<div id="carouselExampleSlidesOnly" class="carousel slide contact" data-bs-ride="carousel" style="grid-column: span 1;">
+				<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/assets/img/insumos.jpg" class="d-block w-100" alt="limp1">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/img/Toallas-Humedas-para-Limpieza-SABO-53-0500-500x500.png" class="d-block w-100" alt="limp2">
+				</div>
+				<div class="carousel-item">
+					<img src="/assets/img/Como-limpiar-tu-teclado-7.png" class="d-block w-100" alt="limp3">
+				</div>
+				</div>
+			</div>
+		<!-- inicio footer -->
+		<footer class="pie">
+			<div class="align-items">
+				<img class="col" src="../assets/img/logotransp.png" alt="otro logo sitio">
+				<div class="col"<h3>San Martin Nº 450 - San Salvador de Jujuy</h3></div>
+			</div>
+		</footer>
+		<!-- fin footer -->
    </div>
    <!-- script bootstrap -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

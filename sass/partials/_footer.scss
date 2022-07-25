@@ -8,4 +8,10 @@
 	width: 100%;
 	max-width: 1000px;
 	flex-flow: column;
+	border-radius: 10px;
+	margin: 5px;
+	/* box shadow */
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
