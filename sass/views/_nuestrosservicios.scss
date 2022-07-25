@@ -21,4 +21,18 @@
 		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	}
+.fotoservicio {
+		background-color:beige;
+		border-radius: 10px;
+		display: grid;
+		grid-auto-flow: row;
+		img {
+			height: 100%;
+			width: 100%;
+		}
+		/* box shadow */
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}	
 }

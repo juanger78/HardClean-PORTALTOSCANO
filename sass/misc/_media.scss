@@ -7,8 +7,12 @@
     }    
     .container .sidebar {
         grid-column: 1 / -1;
+        display: flex;
+        align-items: center;
+	    justify-content: center;
+        width: 100%;
     }
-    .container .widget1 {
+     .container .widget1 {
         grid-column: 1 / -1;
     }
     .container .widget2 {
@@ -24,6 +28,9 @@
         grid-column: 1 / -1;
     }
     .container .articulo {
+        grid-column: 1 / -1;
+    }
+    .fotoservicio {
         grid-column: 1 / -1;
     }
 }
